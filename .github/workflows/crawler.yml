@@ -2,7 +2,7 @@ name: Hot News Crawler
 
 on:
   schedule:
-    - cron: "0 7 * * *"
+    - cron: "0 23 * * *" # SGT  time 7am
   workflow_dispatch:
 
 # 添加权限设置
